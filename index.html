@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Terrain Generator</title>
+    <style>
+        body {
+            width: 100%;
+            background-color: bisque;
+        }
+        h1 {
+            text-align: center;
+        }
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>地形生成</h1>
+    <canvas id="plane" width="500" height="500"></canvas>
+    <canvas id="sphere" width="500" height="500"></canvas>
+    <canvas id="torus" width="500" height="500"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
